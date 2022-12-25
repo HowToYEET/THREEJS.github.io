@@ -509,7 +509,7 @@ const Proces_1_Mesh = new THREE.Mesh(
 Proces_1_Mesh.position.set(16, 1.5, -2);
 objects.push(Proces_1_Mesh);
 const future_keychain = new THREE.TextureLoader().load(
-  "images/future_keychain.jpg"
+  "images/future_keychain.JPG"
 );
 // Declare container to image here (mostly a mesh) Important -> MeshBasicMaterial for image rendering or else weird-looking
 const future_keychain_image_geometry = new THREE.BoxGeometry(2, 2, 0.1);
